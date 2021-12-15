@@ -6,6 +6,7 @@
   "scripts": {
     "build": "tsc",
     "start": "node dist/main.js",
+    "server": "npm i && tsc && node dist/main.js",
     "dev": "concurrently \"tsc -w\" \"nodemon dist/main.js\""
   },
   "keywords": [],
